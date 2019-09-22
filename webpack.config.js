@@ -15,7 +15,6 @@ module.exports = {
     rules: [{ test: /\.tsx?$/, loader: 'ts-loader' }]
   },
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
     alias: {
       web: path.resolve(__dirname, 'web'),
       pkg: path.resolve(__dirname, 'pkg')
